@@ -2,13 +2,18 @@ public class Triangle {
     private int base;
     private int height;
 
-    public Triangle (int b, int h){
+    public Triangle(int b, int h){
         base = b;
         height = h;
     }
 
-    public Triangle (){
+    public Triangle(){
         base = 6;
         height = 6;
     }
+
+    public int area(){
+        return (base * height / 2);
+    }
+
 }
